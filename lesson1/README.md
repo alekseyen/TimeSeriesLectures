@@ -31,8 +31,8 @@
 
 Смысл: оценка степень влияние значения $y_t$ на значение $y_{t + \tau}$
 
-$$
+$
 r_\tau=\widehat{\operatorname{corr}}\left(y_t, y_{t+\tau}\right)=\frac{\sum_{t=1}^{T-\tau}\left(y_t-\bar{y}\right)\left(y_{t+\tau}-\bar{y}\right)}{\sum_{t=1}^T\left(y_t-\bar{y}\right)^2}, \quad \bar{y}=\frac{1}{T} \sum_{t=1}^T y_t
-$$
+$
 
 (где $\tau$ - лаг автокорреляции)
